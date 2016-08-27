@@ -107,6 +107,8 @@ var MusicGame = React.createClass({
         <p>{this.getKeys(this.state.currentNote)}</p>
 
         <p>This game was built with React and <a href="https://github.com/mudcube/MIDI.js/">MIDI.js</a>.</p>
+        <p>You can view the source <a href="https://github.com/bshlgrs/music-game">on Github.</a></p>
+        <p>I also made a <a href="https://github.com/bshlgrs/music-game-react-native">mobile app version</a>.</p>
       </div>
     );
   }
